@@ -1,3 +1,5 @@
+-- This query selects the name of each glam rock band, the lifespan of each band
+-- and the year each band was formed and split (if applicable).
 SELECT band_name,
     CASE 
         WHEN split IS NOT NULL
